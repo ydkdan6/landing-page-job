@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+     <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="./responsive.css" />
     <link rel="stylesheet" href="./world.css" />
     <link rel="stylesheet" href="./desktop-1.css" />
     <style>
@@ -24,73 +29,96 @@
     <div class="desktop-1">
       <img class="image-1-icon" alt="" src="./images/image-1.png" />
       
-      <nav class="home-parent">
-       
-        <a class="home" href="#">HOME</a>
-        <a class="tickets" href="#" target="_blank">TICKETS</a>
-        <a class="about-us" href="#" target="_blank" id="aBOUTUS">ABOUT US</a>
-        <a class="contact-us" href="#" target="_blank" id="cONTACTUS"
-          >CONTACT US</a
-        >
-   
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand img" href="#"><img src="./images/bimz-1.png" class="nav-image"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link active " href="#" style="color: #FFA902;" >HOME</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#" style="color: #FFA902;">TICKETS</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="#about" style="color: #FFA902;">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #FFA902;">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <img class="desktop-1-child" alt="" src="./public/vector-1.svg" />
+      <div class="container">
+        <img class="desktop-1-child" alt="" src="./public/vector-1.svg" />
 
-      <img class="desktop-1-item" alt="" src="./images/ellipse-2.png" />
+        <img class="desktop-1-item" alt="" src="./images/ellipse-2.png" />
+  
+        <img class="desktop-1-inner" alt="" src="./images/ellipse-1.png" />
+  
+        <div class="input">
+        <input
+          class="rectangle-input"
+          type="text"
+          data-scroll-to="rectangleInput"
+          placeholder="&nbsp;Full Name:"
+        />
+  
+        <input class="desktop-1-child1" type="email" placeholder="&nbsp;Email:" />
+  
+        <input class="desktop-1-child2" type="text" placeholder="&nbsp; Message:" />
+        </div>
+  
+        <div class="about-section">
+        <h1 class="about" data-scroll-to="about" id="about">About &nbsp;<span id="us">Us</span></h1>
+        <h1 class="us">Us</h1>
+        <div class="full-name"></div>
+        <div class="email"></div>
+        <div class="message"></div>
+        <a class="read-more" href="#">Read More...</a>
+        <p class="our-name-is-container">
+          <span class="our-name-is"
+            >Our name is our carrer, we push ahead and make sure to
+          </span>
+          <span class="our-name-is"
+            >curate the very best of events all of your fingertips, we are a
+          </span>
+          <span class="our-name-is"
+            >group of talented individuals who have been together for over</span
+          >
+          <span class="our-name-is">
+            7+ years and we derive joy in making events of spectacular
+            vilor...</span
+          >
+        </p>
+        </div>
+        <div class="hero-image">
+        <img class="rectangle-icon" alt="" src="./images/rectangle-15.png" />
 
-      <img class="desktop-1-inner" alt="" src="./images/ellipse-1.png" />
-
+        <img class="bimz-1-icon" alt="" src="./images/bimz-1.png" />
+        </div>
+  
+        <a class="send-wrapper" href="mailto:admin@bimsdrumzlive.com">
+          <div class="send">Send</div>
+        </a>
+        <ul class="facebook-f-parent">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </ul>
       
-      <input
-        class="rectangle-input"
-        type="text"
-        data-scroll-to="rectangleInput"
-        placeholder="&nbsp;Full Name:"
-      />
-
-      <input class="desktop-1-child1" type="email" placeholder="&nbsp;Email:" />
-
-      <input class="desktop-1-child2" type="text" placeholder="&nbsp; Message:" />
-
-      <h1 class="about" data-scroll-to="about">About</h1>
-      <h1 class="us">Us</h1>
-      <div class="full-name"></div>
-      <div class="email"></div>
-      <div class="message"></div>
-      <a class="read-more" href="#">Read More...</a>
-      <p class="our-name-is-container">
-        <span class="our-name-is"
-          >Our name is our carrer, we push ahead and make sure to
-        </span>
-        <span class="our-name-is"
-          >curate the very best of events all of your fingertips, we are a
-        </span>
-        <span class="our-name-is"
-          >group of talented individuals who have been together for over</span
-        >
-        <span class="our-name-is">
-          7+ years and we derive joy in making events of spectacular
-          vilor...</span
-        >
-      </p>
-      <img class="rectangle-icon" alt="" src="./images/rectangle-15.png" />
-
-      <img class="bimz-1-icon" alt="" src="./images/bimz-1.png" />
-
-      <a class="send-wrapper" href="mailto:admin@bimsdrumzlive.com">
-        <div class="send">Send</div>
-      </a>
-      <ul class="facebook-f-parent">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-youtube"></i>
-      </ul>
-    
-      <b class="bimzdrumzlive">2024 bimzdrumzlive </b>
-      <img class="mask-group-icon" alt="" src="./images/mask-group.png" />
-    </div>
-
-    
+        <b class="bimzdrumzlive">2024 bimzdrumzlive </b>
+        <img class="mask-group-icon" alt="" src="./images/mask-group.png" />
+      </div>
+  
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
   </body>
 </html>
