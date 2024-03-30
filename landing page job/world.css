@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-franklin-gothic-demi: "Franklin Gothic Demi";
+  --font-franklin-gothic-book: "Franklin Gothic Book";
+
+
+  /* font sizes */
+  --font-size-5xl: 20px;
+  --font-size-17xl: 33px;
+  --font-size-161xl: 180px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #21201f;
+  --color-orange: #ffa902;
+  --color-darkslategray: #3d3c3b;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+}
