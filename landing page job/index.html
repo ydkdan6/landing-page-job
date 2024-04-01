@@ -6,6 +6,14 @@
 
      <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 
   <!-- Your custom CSS -->
   <link rel="stylesheet" href="./responsive.css" />
@@ -61,19 +69,22 @@
   
         <div class="input">
         <input
-          class="rectangle-input"
+          class="rectangle-input animate__animated animate__fadeInRight animate__delay-2s"
           type="text"
           data-scroll-to="rectangleInput"
           placeholder="&nbsp;Full Name:"
         />
   
-        <input class="desktop-1-child1" type="email" placeholder="&nbsp;Email:" />
+        <input class="desktop-1-child1 animate__animated animate__fadeInRight animate__delay-2s" type="email" placeholder="&nbsp;Email:" />
   
-        <input class="desktop-1-child2" type="text" placeholder="&nbsp; Message:" />
+        <input class="desktop-1-child2 animate__animated animate__fadeInRight animate__delay-2s" type="text" placeholder="&nbsp; Message:" />
         </div>
   
+         
+         
+         
         <div class="about-section">
-        <h1 class="about" data-scroll-to="about" id="about">About &nbsp;<span id="us">Us</span></h1>
+        <h1 class="about animate__animated animate__fadeInRight" data-scroll-to="about" id="about">About &nbsp;<span id="us">Us</span></h1>
         <h1 class="us">Us</h1>
         <div class="full-name"></div>
         <div class="email"></div>
@@ -82,7 +93,7 @@
         <p class="our-name-is-container">
           <span class="our-name-is"
             >Our name is our carrer, we push ahead and make sure to
-        </span>
+          </span>
           <span class="our-name-is"
             >curate the very best of events all of your fingertips, we are a
           </span>
@@ -96,13 +107,13 @@
         </p>
         </div>
         <div class="hero-image">
-        <img class="rectangle-icon" alt="" src="./images/rectangle-15.png" />
+        <img class="rectangle-icon animate__animated animate__fadeInRight animate__delay-6s" alt="" src="./images/rectangle-15.png" />
 
-        <img class="bimz-1-icon" alt="" src="./images/bimz-1.png" />
+        <img class="bimz-1-icon animate__animated animate__fadeInLeft" alt="" src="./images/bimz-1.png" />
         </div>
-  
+        <h1 class="contact-header">Contact Us</h1>
         <a class="send-wrapper" href="mailto:admin@bimsdrumzlive.com">
-          <div class="send">Send</div>
+          <div class="send animate__animated animate__fadeInLeft animate__delay-2s">Send</div>
         </a>
         <ul class="facebook-f-parent">
           <i class="fa-brands fa-instagram"></i>
@@ -112,13 +123,24 @@
         </ul>
       
         <b class="bimzdrumzlive">2024 bimzdrumzlive </b>
-        <img class="mask-group-icon" alt="" src="./images/mask-group.png" />
+        <img class="mask-group-icon animate__animated animate__fadeInLeft animate__delay-9s" alt="" src="./images/mask-group.png" />
       </div>
   
       </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      ScrollReveal().reveal('.contact-header', {delay: 500});
+      ScrollReveal().reveal('.rectangle-input',  {delay: 600});
+      ScrollReveal().reveal('.desktop-1-child1',  {delay: 700});
+      ScrollReveal().reveal('.desktop-1-child2',  {delay: 800});
+      ScrollReveal().reveal('.send',  {delay: 600});
+      ScrollReveal().reveal('.bimz-1-icon',  {delay: 400});
+
+      document.documentElement.style.setProperty('--animate-duration', '5s');
+
+ </script>
   </body>
   </body>
 </html>
