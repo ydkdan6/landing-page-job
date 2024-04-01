@@ -133,8 +133,7 @@
     color: var(--color-white);
     font-family:  var(--font-franklin-gothic-demi);
   }
-  
-  
+
   .desktop-1-child {
     position: absolute;
     top: 72px;
@@ -212,7 +211,7 @@
     margin: 0;
     position: absolute;
     top: 940px;
-    left: 11px;
+    left: 60px;
     font-size: var(--font-size-161xl);
     font-weight: 200;
     font-family: var(--font-franklin-gothic-demi);
@@ -220,7 +219,7 @@
   }
   .us {
     top: 1105px;
-    left: 250px;
+    left: 270px;
   }
 
   #us {
