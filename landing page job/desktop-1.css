@@ -296,24 +296,24 @@
     height: 346px;
     object-fit: cover;
   }
-  .events,
+  /*.events,
   .events-wrapper {
     position: absolute;
     width: 98px;
     height: 52px;
-  }
+  }*/
   .events {
+    position: absolute;
     font: inherit;
     width: fit-content;
       background-color: #FFA902;
       border: 0;
       color: #f4f4f4;
-    top: 0;
-    left: 0;
+    top: 36.6rem;
+    right:23.4rem;
     border: 0;
     border-radius: 0.5em;
-    font-size: 3rem;
-    
+    font-size: 1.3rem;
     padding: 0.5rem 1em;
       font-weight: 600;
       text-shadow: 0 0.0625em 0 #eb9d03 ;
@@ -322,14 +322,14 @@
           0 0.375em 0 0 #bd7f02, 0 0.425em 0 0 #bd7f02, 0 0.425em 0.5em 0 #bd7f02;
       transition: 0.15s ease;
       cursor: pointer;
-      &:active,
-      &:hover {
+  }
+      .events:hover {
           translate: 0 0.225em;
           box-shadow: inset 0 0.03em 0 0 #f1a101, 0 0.03em 0 0 #ee9f01,
               0 0.0625em 0 0 #e29701, 0 0.125em 0 0 #e09601, 0 0.125em 0 0 #df9502,
               0 0.2em 0 0 #db9301, 0 0.225em 0 0 #ca8701, 0 0.225em 0.375em 0 #ce8901;
   }
-}
+
 .events-wrapper {
   text-decoration: none;
   top: 3270px;
@@ -522,6 +522,20 @@
       top: 9rem;
       left: 0rem;
       transform: scale(0.7);
+    }
+
+    .events {
+      position: absolute;
+      font: inherit;
+      width: fit-content;
+        background-color: #FFA902;
+        border: 0;
+        color: #f4f4f4;
+      top: 32rem;
+      left: 1rem;
+      border: 0;
+      border-radius: 0.5em;
+      font-size: 1.3rem;
     }
   
     .about,
