@@ -598,9 +598,9 @@
   .us {
     margin: 0;
     position: absolute;
-    top: 940px;
-    left: 11px;
-    font-size: 1.5rem;
+    top: 670px;
+    left: 95px;
+    font-size: 2.5rem;
     font-weight: 200;
     font-family: var(--font-montserrat-black);
     text-align: center;
@@ -615,25 +615,90 @@
   .our-name-is-container {
     margin: 0;
     position: absolute;
-    top: 993px;
+    top: 780px;
     left: 11px;
-    font-size: var(--font-size-5xl);
+    font-size: 18px;
     font-family: var(--font-montserrat-black);
     display: inline-block;
     width: fit-content;
   }
+  .hottest-events {
+    margin: 0;
+    position: absolute;
+    top: 1035px;
+    left: 37px;
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: var(--font-montserrat-black);
+    text-align: center;
+    width: fit-content;
+  }  
+ 
+  .hottest-events-in {
+    margin: 0;
+    position: absolute;
+    top: 1080px;
+    left: 50px;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: var(--font-montserrat-black);
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .feel-the-beat {
+    margin: 0;
+    position: absolute;
+    top: 1130px;
+    left: 37px;
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-family: var(--font-montserrat-black);
+    text-align: center;
+    color: #f4f4f4;
+    width: fit-content;
+  }
+  
+  .ftb-another-container {
+    margin: 0;
+    position: absolute;
+    top: 1180px;
+    left: 18px;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: var(--font-montserrat-black);
+    display: inline-block;
+    width: fit-content;
+    width: fit-content;
+
+  }
+   .ftb-card {
+    position: absolute;
+    top: 85.9rem;
+    left: 0;
+    border-radius: 40px;
+    width: 377.1px;
+    height: 490.9px;
+    object-fit: contain;
+   }
+
+   .buy-ticket {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+   }
 
   .contact-header {
     position: absolute;
-    top: 108rem;
-    left: 0;
+    top: 127rem;
+    left: 29px;
     right: 0;
     width: 80%;
   }
   .rectangle-icon {
     position: absolute;
-    top: 80.9rem;
-    left: 0;
+    top: 97.9rem;
+    left: 600px;
     border-radius: 40px;
     width: 377.1px;
     height: 416.9px;
@@ -641,8 +706,8 @@
   }
   .mask-group-icon {
     position: absolute;
-    top: 81.6rem;
-    left: 0;
+    top: 97.6rem;
+    left: 600px;
     width: 398.5px;
     height: 435.5px;
     object-fit: cover;
@@ -663,12 +728,30 @@
     margin: 4rem auto;
     padding-left: 10px;
   }
+   
+  .rectangle-input {
+    top: 2027px;
+    width: 100%;
+  }
+
+  .desktop-1-child2 {
+    top: 2195px;
+    width: 100%;
+  }
+
+  .desktop-1-child1 {
+    top: 2110px;
+    width: 100%;
+  }
+
   .send,
   .send-wrapper {
     position: absolute;
-    left: 11px;
-    width: fit;
+    top: 1250px;
+    left: 53px;
+    width: 160px;
     height: 52px;
+    font-size: 35px;
   }
   .bimzdrumzlive {
     position: absolute;
