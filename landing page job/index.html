@@ -15,14 +15,16 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
 
+<link rel="stylesheet" href="card.css"/>
+
   <!-- Your custom CSS -->
   <link rel="stylesheet" href="./responsive.css" />
     <link rel="stylesheet" href="./world.css" />
     <link rel="stylesheet" href="desktop-1.css" />
     <style>
       @font-face {
-        font-family: "Montserrat-Black";
-        src: url("./images/Montserrat-Black.ttf");
+        font-family: "Franklin Gothic Demi";
+        src: url("./images/LibreFranklin-Medium.ttf");
         font-weight: 400;
       }
       @font-face {
@@ -49,7 +51,7 @@
               <a class="nav-link active" href="#" style="color: #FFA902;" >HOME</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#hottest-events" style="color: #FFA902;">TICKETS</a>
+              <a class="nav-link" href="#wrapper" style="color: #FFA902;">TICKETS</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="#about" style="color: #FFA902;">ABOUT US</a>
@@ -79,6 +81,9 @@
         <input class="desktop-1-child1 animate__animated animate__fadeInRight animate__delay-2s" type="email" placeholder="&nbsp;Email:" />
   
         <input class="desktop-1-child2 animate__animated animate__fadeInRight animate__delay-2s" type="text" placeholder="&nbsp; Message:" />
+        <a href="" class="btn-active">
+          <input type="button" value="Send" />
+        </a>
         </div>
   
         <div class="ftb-card animate__animated animate__fadeInLeft">
@@ -90,18 +95,18 @@
         </div>
          
         <div class="about-section">
-        <h1 class="about animate__animated animate__fadeInRight" data-scroll-to="about" id="about">Who We &nbsp;<span id="us">Are</span></h1>
+        <h1 class="about animate__animated animate__fadeInRight" data-scroll-to="about" id="about">Who We &nbsp;<span id="us">Us</span></h1>
         <h1 class="us">Are</h1>
         
         <div class="full-name"></div>
         <div class="email"></div>
         <div class="message"></div>
-        <p class="our-name-is-container">
+        <p class="our-name-is-container" style="margin-top: 5rem;">
           <span class="our-name-is"
-            >Feel The Beat is a non-genre specific music festival
+            >Feel The Beat is a non-genre specific music festival which aims to
           </span>
           <span class="our-name-is"
-            >which aims to deliver a beautiful musical experience to many musical audiences.
+            >deliver a beautiful musical experience to many musical audiences.
           </span>
           <span class="our-name-is"
             >Also, it aims to connect music acts to their audience </span
@@ -111,36 +116,84 @@
           >
         </p>
         </div>
-        <h2 class="hottest-events animate__animated animate__fadeInRight" data-scroll-to="hottest-events" id="hottest-events">Hottest Events</h2>
-        <h2 class="hottest-events-in animate__animated animate__fadeInLeft">Hottest Events In Your Location</h2>
-        <h2 class="feel-the-beat animate__animated animate__fadeInLeft">Feel The Beat</h2>
-        <p class="ftb-another-container">
-          <span class="ftb-another"
-        >Hey Ravers, Another banger </span
-        >
-        <span class="ftb-another"
-        >will be in the capital city soon, 
-        </span>
-         <span class="ftb-another">
-          it's a 5+ hours long time of fun
-         </span>
-         <span class="ftb-another">
-          sounds,colors & crazy ravers,
-         </span>
-         <span class="ftb-another">
-          come over & lets have fun.
-         </span>
-      </p>
-   
+
+        <div class="wrapper" id="wrapper">
+        
+          <h2><strong>What's new?</strong></h2>
+        
+          <div class="news">
+        
+            <figure class="article">
+        
+              <img src="images/10547808.jpg" />
+        
+              <figcaption>
+        
+                <h3>New Tickets</h3>
+        
+                <p>
+        
+                  In today’s update, two heads are better than one, and three heads are better than that, as the all-new Flockheart’s Gamble Arcana item for Ogre Magi makes its grand debut.
+        
+                </p>
+        
+              </figcaption>
+        
+            </figure>
+        
+            <figure class="article">
+        
+              <img src="images/10628187.jpg" />
+        
+              <figcaption>
+        
+                <h3>Update</h3>
+        
+                <p>
+        
+                  Just in time for Lunar New Year and the Rat’s time in the cyclical place of honor, the Treasure of Unbound Majesty is now available.
+        
+                </p>
+        
+              </figcaption>
+        
+            </figure>
+
+            <figure class="article">
+        
+              <img src="images/10628187.jpg" />
+        
+              <figcaption>
+        
+                <h3>Update</h3>
+        
+                <p>
+        
+                  Just in time for Lunar New Year and the Rat’s time in the cyclical place of honor, the Treasure of Unbound Majesty is now available.
+        
+                </p>
+        
+              </figcaption>
+        
+            </figure>
+        
+          </div>
+        
+        </div>
 
         <div class="hero-image">
         <img class="rectangle-icon animate__animated animate__fadeInRight animate__delay-6s" alt="" src="./images/rectangle-15.png" />
-           
+
+        <div class="banner">
+          <img class="skew-bg" src="images/rectangle-15.png"/>
+          <img class="image-2" src="images/img1.jpg" alt="banner-img"/>
+        </div>
+        
         <img class="bimz-1-icon animate__animated animate__fadeInLeft" alt="" src="./images/bimz-1.png" />
-        <button class="events animate__animated animate__fadeInRight"><span class="animate__animated animate__fadeInLeft">Events</span></button>
-        <h1 class="contact-header" data-scroll-to="contact-header" id="contact-header">Contact Us</h1>
+        <button class="events animate__animated animate__fadeInRight"><span class="animate__animated animate__fadeInLeft">Discover Events</span></button>
+        <h1 class="contact-header" id="contact-header" data-scroll-to="contact-header">Contact Us</h1>
         <a class="send-wrapper" href="mailto:admin@bimsdrumzlive.com">
-          <div class="send animate__animated animate__fadeInLeft animate__delay-2s">Send</div>
+          <div class="send animate__animated animate__fadeInLeft animate__delay-2s">Submit</div>
         </a>
         <ul class="facebook-f-parent">
           <i class="fa-brands fa-instagram"></i>
@@ -149,7 +202,7 @@
           <i class="fa-brands fa-youtube"></i>
         </ul>
       
-        <b class="bimzdrumzlive">2024 bimzdrumzlive </b>
+        <b class="bimzdrumzlive">2024 bimzdrumzlive<sup>&copy;</sup> </b>
         <img class="mask-group-icon animate__animated animate__fadeInLeft animate__delay-9s" alt="" src="./images/mask-group.png" />
       </div>
   
@@ -159,15 +212,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
       ScrollReveal().reveal('.contact-header', {delay: 500});
-      ScrollReveal().reveal('.rectangle-input',  {delay: 800});
-      ScrollReveal().reveal('.desktop-1-child1',  {delay: 900});
-      ScrollReveal().reveal('.desktop-1-child2',  {delay: 900});
+      ScrollReveal().reveal('.rectangle-input',  {delay: 500});
+      ScrollReveal().reveal('.desktop-1-child1',  {delay: 500});
+      ScrollReveal().reveal('.desktop-1-child2',  {delay: 500});
       ScrollReveal().reveal('.send',  {delay: 700});
       ScrollReveal().reveal('.bimz-1-icon',  {delay: 500});
 
       document.documentElement.style.setProperty('--animate-duration', '5s');
 
  </script>
+ <script src="script.js"></script>
   </body>
   </body>
 </html>
