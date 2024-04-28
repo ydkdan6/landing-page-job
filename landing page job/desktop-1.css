@@ -856,9 +856,9 @@ body {
   .us {
     margin: 0;
     position: absolute;
-    top: 940px;
+    top: 951px;
     left: 11px;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 200;
     font-family: var(--font-franklin-gothic-demi);
     text-align: center;
@@ -875,25 +875,27 @@ body {
   .our-name-is-container {
     margin: 0;
     position: absolute;
-    top: 993px;
+    top: 63rem;
     left: 11px;
-    font-size: var(--font-size-5xl);
-    font-family: var(--font-montserrat-black);
+    font-size: 1.3rem;
+    font-family: var(--font-franklin-gothic-demi);
     display: inline-block;
     width: fit-content;
   }
-
+  
   .contact-header {
     position: absolute;
-    top: 108rem;
-    left: 0;
-    right: 0;
-    width: 80%;
+    top: 140.9rem;
+    left: 1.3rem;
+    text-align: left;
+    line-break: normal;
+    font-size: 2rem;
+    width: 100%;
   }
   .rectangle-icon {
     position: absolute;
-    top: 80.9rem;
-    left: 0;
+    top: 34.5rem;
+    left: 10rem;
     border-radius: 40px;
     width: 377.1px;
     height: 416.9px;
@@ -901,8 +903,8 @@ body {
   }
   .mask-group-icon {
     position: absolute;
-    top: 81.6rem;
-    left: 0;
+    top: 34.5rem;
+    left: 10rem;
     width: 398.5px;
     height: 435.5px;
     object-fit: cover;
@@ -923,12 +925,29 @@ body {
     margin: 4rem auto;
     padding-left: 10px;
   }
-  .send,
-  .send-wrapper {
+
+  .btn-active {
+    display: block;
     position: absolute;
-    left: 11px;
-    width: fit;
-    height: 52px;
+    top: 162rem;
+    left: 70px;
+    font: inherit;
+    width: fit-content;
+      background-color: #FFA902;
+      border: 0;
+      color: #f4f4f4;
+    border: 0;
+    border-radius: 0.5em;
+    font-size: 3rem;
+    padding: 0.5rem 1em;
+      font-weight: 600;
+      font-size: 2rem;
+      text-shadow: 0 0.0625em 0 #eb9d03 ;
+      box-shadow: inset 0 0.0625em 0 0 #da9203, 0 0.0625em 0 0 #da9203,
+          0 0.125em 0 0 #c78503, 0 0.25em 0 0 #c78503, 0 0.3125em 0 0 #c78503,
+          0 0.375em 0 0 #bd7f02, 0 0.425em 0 0 #bd7f02, 0 0.425em 0.5em 0 #bd7f02;
+      transition: 0.15s ease;
+      cursor: pointer;
   }
 
   .btn-active input {
