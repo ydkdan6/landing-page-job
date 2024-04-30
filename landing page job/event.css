@@ -197,11 +197,11 @@
     }
 
     .img-bg {
-        width: 40rem;
+        width: 22rem;
         height: 30rem;
         position: absolute;
         top: 20rem;
-        left: 1rem;
+        left: 0rem;
         
     }
 
@@ -209,13 +209,13 @@
         position: absolute;
         top: 0;
         height: 22rem;
-        width: 80%;
-        transform: rotate(-4deg);
+        width: 90%;
+        transform: rotate(-8deg);
     }
 
     .img-bg h3 {
         position: absolute;
-        top: 19rem;
+        top: 20rem;
         left: 0;
     }
     
