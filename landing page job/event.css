@@ -157,18 +157,18 @@
     .event-wrapper {
         display: block;
         position: absolute;
-        top: 75rem;
+        top: 78rem;
     }
 
     .event-header {
-        justify-content: center;
-        margin-left: 5rem; 
+        justify-content: left;
+        margin-left: 0rem; 
     }
     
     .event-wrapper h3{
-        text-align: center;
+        text-align: left;
         font-size: 1.2rem;
-        margin-left: 5rem;
+        margin-left: 0rem;
     }
 
 
@@ -193,7 +193,7 @@
     .main-descr p {
         margin: 1rem 0rem;
         text-align: left;
-        width: 35rem;
+        width: fit-content;
     }
 
     .img-bg {
@@ -201,7 +201,7 @@
         height: 30rem;
         position: absolute;
         top: 20rem;
-        left: 0rem;
+        left: 0.4rem;
         
     }
 
@@ -216,7 +216,7 @@
     .img-bg h3 {
         position: absolute;
         top: 20rem;
-        left: 0;
+        left: 1.2rem;
     }
     
     .img-bg h5 {
