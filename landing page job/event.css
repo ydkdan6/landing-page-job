@@ -1,0 +1,245 @@
+.event-wrapper {
+    display: block;
+    position: absolute;
+    top: 84rem;
+    font-weight: 600;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family:  var(--font-franklin-gothic-demi);
+}
+
+.event-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-break: normal;
+    color: rgb(173, 31, 31);
+    font-weight: 900;
+}
+
+.event-wrapper h3{
+    text-align: center;
+}
+
+.main-descr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem 0 2rem;
+}
+
+.main-descr h1 {
+    color: #FFA902;
+}
+
+.main-descr p {
+    width: 50%;
+    text-align: justify;
+    margin: 2rem 13rem;
+}
+
+.img-bg {
+    position: relative;
+    width: 60%;
+    height: 26rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(31, 30, 30);
+}
+
+.img-bg img {
+    position: absolute;
+    top: 0;
+    height: 20rem;
+    width: 90%;
+    transform: rotate(-7deg);
+}
+
+.img-bg h3 {
+    position: absolute;
+    top: 18rem;
+    left: 18px;
+}
+
+.img-bg h5 {
+    position: absolute;
+    top: 20rem;
+    left: 18px;
+    margin: 6px 0;
+}
+
+.img-bg small {
+    position: absolute;
+    top: 22rem;
+    left: 18px;
+    margin: 6px 0;
+}
+
+.img-bg button {
+    position: absolute;
+    top: 22rem;
+    right: 1.5rem;
+    margin: 6px 0;
+    width: 45%;
+    height: 3rem;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: #FFA902;
+    border: 1px solid #FFA902;
+    border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+    .event-wrapper {
+        display: block;
+        position: absolute;
+        top: 80rem;
+    }
+
+    .event-header {
+        justify-content: left;
+        margin-left: 2.5rem; 
+    }
+    
+    .event-wrapper h3{
+        text-align: left;
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+
+    .main-descr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .main-descr h1 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        color: #FFA902;
+    }
+
+    .main-descr h1 span {
+        color: #fff;
+        border-bottom: 1px solid ;
+    }
+
+    .main-descr p {
+        margin: 1rem 0rem;
+        text-align: left;
+        width: 20rem;
+    }
+
+    .img-bg {
+        width: 22rem;
+        position: absolute;
+        top: 20rem;
+        left: 0.4rem;
+        
+    }
+
+    .img-bg h3 {
+       left: 7px;
+    }
+
+    .rectangle-icon,  .mask-group-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 998px) {
+    .event-wrapper {
+        display: block;
+        position: absolute;
+        top: 75rem;
+    }
+
+    .event-header {
+        justify-content: center;
+        margin-left: 5rem; 
+    }
+    
+    .event-wrapper h3{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 5rem;
+    }
+
+
+    .main-descr {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: 0;
+    }
+
+    .main-descr h1 {
+        margin-top: 2rem;
+        font-size: 2rem;
+        color: #FFA902;
+    }
+
+    .main-descr h1 span {
+        color: #fff;
+        border-bottom: 1px solid ;
+    }
+
+    .main-descr p {
+        margin: 1rem 0rem;
+        text-align: left;
+        width: 35rem;
+    }
+
+    .img-bg {
+        width: 40rem;
+        height: 30rem;
+        position: absolute;
+        top: 20rem;
+        left: 1rem;
+        
+    }
+
+    .img-bg img {
+        position: absolute;
+        top: 0;
+        height: 22rem;
+        width: 80%;
+        transform: rotate(-4deg);
+    }
+
+    .img-bg h3 {
+        position: absolute;
+        top: 19rem;
+        left: 0;
+    }
+    
+    .img-bg h5 {
+        position: absolute;
+        top: 23rem;
+        left: 18px;
+        margin: 6px 0;
+    }
+    
+    .img-bg small {
+        position: absolute;
+        top: 25rem;
+        left: 18px;
+        margin: 6px 0;
+    }
+    
+    .img-bg button {
+        position: absolute;
+        top: 24rem;
+        height: 4rem;
+    }
+
+    .rectangle-icon,  .mask-group-icon {
+        display: none;
+    }
+}

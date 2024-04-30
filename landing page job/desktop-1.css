@@ -59,6 +59,7 @@ body {
     width: fit-content;
     transform: scale(0.9);
     margin-left: 5rem;
+    margin-top: 1rem;
   }
 
   .active {
@@ -192,7 +193,7 @@ body {
     opacity: 1;
   }
   .rectangle-input {
-    top: 1753px;
+    top: 124rem;
   }
   .desktop-1-child1,
   .desktop-1-child2,
@@ -208,12 +209,12 @@ body {
     padding-left: 10px;
   }
   .desktop-1-child1 {
-    top: 1861px;
+    top: 130rem;
     border-radius: var(--br-81xl);
     height: 73px;
   }
   .desktop-1-child2 {
-    top: 1976px;
+    top: 136rem;
     border-radius: 50px;
     height: 226px;
   }
@@ -295,7 +296,7 @@ body {
 
   .contact-header {
     position: absolute;
-    top: 106rem;
+    top: 122rem;
     right: 18rem;
     text-align: center;
   }
@@ -398,8 +399,8 @@ body {
       background-color: #FFA902;
       border: 0;
       color: #f4f4f4;
-    top: 0;
-    left: 0;
+    top: 12rem;
+    left: 9rem;
     border: 0;
     border-radius: 0.5em;
     font-size: 3rem;
@@ -515,7 +516,7 @@ body {
   }
   .mask-group-icon {
     position: absolute;
-    top: 1701px;
+    top: 57rem;
     left: 212px;
     width: 398.5px;
     height: 435.5px;
@@ -551,8 +552,8 @@ body {
     .events {
       position: absolute;
       font: inherit;
-      width: 15rem;
-      height: 4rem;
+      width: 9rem;
+      height: 3rem;
         background-color: #FFA902;
         border: 0;
         color: #f4f4f4;
@@ -565,7 +566,7 @@ body {
 
     .rectangle-icon {
       position: absolute;
-      top: 50.8rem;
+      top: 123rem;
       left: 8rem;
       border-radius: 40px;
       width: 377.1px;
@@ -575,8 +576,8 @@ body {
 
     .mask-group-icon {
       position: absolute;
-      top: 50.5rem;
-      left: 0rem;
+      top: 123rem;
+      left: 5rem;
       width: 398.5px;
       height: 435.5px;
       object-fit: cover;
@@ -589,20 +590,21 @@ body {
     .about,
     .us {
       margin: 0;
+      width: 30rem;
       position: absolute;
-      top: 53.5rem;
-      left: 34rem;
-      font-size: 3rem;
-      font-weight: 200;
+      top: 67.5rem;
+      left: 3rem;
+      font-size: 6rem;
+      font-weight: 600;
       font-family: var(--font-franklin-gothic-demi);
-      text-align: center;
+      text-align: left;
     
     }
 
     .our-name-is-container {
       margin: 0;
       position: absolute;
-      top: 55rem;
+      top: 64rem;
       left: 34rem;
       font-size: 1.5rem;
       font-family: var(--font-franklin-gothic-demi);
@@ -621,7 +623,7 @@ body {
 
     .bimzdrumzlive {
       position: absolute;
-      top: 2504px;
+      top: 170rem;
       left: 33rem;
       font-size: var(--font-size-5xl);
       text-align: center;
@@ -630,9 +632,9 @@ body {
 
     .send {
       display: block;
-      margin-right: 6.8rem;
-      text-align: center;
-      width: 19rem;
+      margin-right: 7.8rem;
+      text-align: right;
+      width: 12rem;
       font-size: 2rem;
     }
   } 
@@ -856,12 +858,12 @@ body {
   .us {
     margin: 0;
     position: absolute;
-    top: 940px;
+    top: 951px;
     left: 11px;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 200;
     font-family: var(--font-franklin-gothic-demi);
-    text-align: center;
+    text-align: left;
   
   }
   .us {
@@ -875,12 +877,12 @@ body {
   .our-name-is-container {
     margin: 0;
     position: absolute;
-    top: 993px;
+    top: 63rem;
     left: 11px;
     font-size: var(--font-size-5xl);
     font-family: var(--font-montserrat-black);
     display: inline-block;
-    width: fit-content;
+    width: fit-content
   }
 
   .contact-header {
@@ -892,8 +894,8 @@ body {
   }
   .rectangle-icon {
     position: absolute;
-    top: 80.9rem;
-    left: 0;
+    top: 34.5rem;
+    left: 10rem;
     border-radius: 40px;
     width: 377.1px;
     height: 416.9px;
@@ -901,8 +903,8 @@ body {
   }
   .mask-group-icon {
     position: absolute;
-    top: 81.6rem;
-    left: 0;
+    top: 34.5rem;
+    left: 10rem;
     width: 398.5px;
     height: 435.5px;
     object-fit: cover;
