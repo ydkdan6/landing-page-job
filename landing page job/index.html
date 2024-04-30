@@ -15,7 +15,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
 
-<link rel="stylesheet" href="card.css"/>
+<link rel="stylesheet" href="event.css"/>
 
   <!-- Your custom CSS -->
   <link rel="stylesheet" href="./responsive.css" />
@@ -48,10 +48,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
-              <a class="nav-link active" href="#" style="color: #FFA902;" >HOME</a>
+              <a class="nav-link active" href="#home" style="color: #FFA902;" >HOME</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#wrapper" style="color: #FFA902;">TICKETS</a>
+              <a class="nav-link" href="#ticket" style="color: #FFA902;">TICKETS</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="#about" style="color: #FFA902;">ABOUT US</a>
@@ -90,8 +90,8 @@
          
          
         <div class="about-section" data-scroll-to="about">
-        <h1 class="about animate__animated animate__fadeInRight" id="about"><span id="us">About Us</span></h1>
-        <h1 class="us">About Us</h1>
+        <h1 class="about animate__animated animate__fadeInRight" id="about"><span id="us">Who we Are? </span></h1>
+        <h1 class="us">Who We Are?</h1>
         
         <div class="full-name"></div>
         <div class="email"></div>
@@ -112,80 +112,35 @@
         </p>
         </div>
 
-        <div class="wrapper" id="wrapper">
-        
-          <h2><strong>What's new?</strong></h2>
-        
-          <div class="news">
-        
-            <figure class="article">
-        
-              <img src="images/10547808.jpg" />
-        
-              <figcaption>
-        
-                <h3>New Tickets</h3>
-        
-                <p>
-        
-                  In today’s update, two heads are better than one, and three heads are better than that, as the all-new Flockheart’s Gamble Arcana item for Ogre Magi makes its grand debut.
-        
-                </p>
-        
-              </figcaption>
-        
-            </figure>
-        
-            <figure class="article">
-        
-              <img src="images/10628187.jpg" />
-        
-              <figcaption>
-        
-                <h3>Update</h3>
-        
-                <p>
-        
-                  Just in time for Lunar New Year and the Rat’s time in the cyclical place of honor, the Treasure of Unbound Majesty is now available.
-        
-                </p>
-        
-              </figcaption>
-        
-            </figure>
-
-            <figure class="article">
-        
-              <img src="images/10628187.jpg" />
-        
-              <figcaption>
-        
-                <h3>Update</h3>
-        
-                <p>
-        
-                  Just in time for Lunar New Year and the Rat’s time in the cyclical place of honor, the Treasure of Unbound Majesty is now available.
-        
-                </p>
-        
-              </figcaption>
-        
-            </figure>
-        
+        <diV class="event-wrapper" id="ticket">
+          <div class="event-header">
+            <h1>Hottest Events</h1>
           </div>
-        
-        </div>
+          <h3>The Hottest Events In Your Location</h3>
+            <div class="main-descr">
+              <div class="descr">
+              <h1><span>Feel The</span> Beat</h1>
+              <p>Hey Ravers, Another Banger will be in the capital city soon, its a 5+ hours long time of fun,sounds,colors & crazy ravers.
+                Come over and lets have fun.
+              </p>
+              </div>
+
+              <div class="img-bg animate__animated animate__fadeInRight animate__delay-6s">
+                <img src="images/mask-group.png" alt="banner"/>
+
+                <h3>Feel The Beat Show</h3>
+                <h5>Abuja, Nigeria</h4>
+                <small>N25,000</small>
+                <button class="btn-buy">Buy Tickets</button>
+              </div>
+            </div>
+        </diV>
 
         <div class="hero-image">
         <img class="rectangle-icon animate__animated animate__fadeInRight animate__delay-6s" alt="" src="./images/rectangle-15.png" />
-
-        <div class="banner">
-          <img class="skew-bg" src="images/rectangle-15.png"/>
-          <img class="image-2" src="images/img1.jpg" alt="banner-img"/>
-        </div>
         
-        <img class="bimz-1-icon animate__animated animate__fadeInLeft" alt="" src="./images/bimz-1.png" />
-        <button class="events animate__animated animate__fadeInRight"><span class="animate__animated animate__fadeInLeft">Discover Events</span></button>
+        <img class="bimz-1-icon animate__animated animate__fadeInLeft" alt="" id="home" src="./images/bimz-1.png" />
+        <button class="events animate__animated animate__fadeInRight"><span class="animate__animated animate__fadeInLeft">Events</span></button>
         <h1 class="contact-header" id="contact-header" data-scroll-to="contact-header">Contact Us</h1>
         <a class="send-wrapper" href="mailto:admin@bimsdrumzlive.com">
           <div class="send animate__animated animate__fadeInLeft animate__delay-2s">Submit</div>
@@ -212,6 +167,8 @@
       ScrollReveal().reveal('.desktop-1-child2',  {delay: 500});
       ScrollReveal().reveal('.send',  {delay: 700});
       ScrollReveal().reveal('.bimz-1-icon',  {delay: 500});
+      ScrollReveal().reveal('.event-wrapper',  {delay: 600});
+      ScrollReveal().reveal('.img-bg',  {delay: 500});
 
       document.documentElement.style.setProperty('--animate-duration', '5s');
 
