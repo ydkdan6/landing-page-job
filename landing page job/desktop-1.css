@@ -227,7 +227,7 @@ body {
     position: absolute;
     top: 940px;
     left: 60px;
-    font-size: var(--font-size-161xl);
+    font-size: 12px;
     font-weight: 200;
     font-family: var(--font-franklin-gothic-demi);
     text-align: center;
@@ -239,7 +239,7 @@ body {
     left: 20px;
     font-size: 2rem;
     font-weight: 200;
-    font-family: 1px;
+    font-family: var(--font-franklin-gothic-demi);
     text-align: center;
   }
   .us {
@@ -317,12 +317,6 @@ body {
     height: 346px;
     object-fit: cover;
   }
-  /*.events,
-  .events-wrapper {
-    position: absolute;
-    width: 98px;
-    height: 52px;
-  }*/
 
   .banner {
     position: relative;
