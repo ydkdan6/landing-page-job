@@ -588,7 +588,7 @@ body {
       position: absolute;
       top: 67.5rem;
       left: 3rem;
-      font-size: 6rem;
+      font-size: 80px;
       font-weight: 600;
       font-family: var(--font-franklin-gothic-demi);
       text-align: left;
@@ -599,7 +599,7 @@ body {
       margin: 0;
       position: absolute;
       top: 64rem;
-      left: 34rem;
+      left: 38rem;
       font-size: 1.5rem;
       font-family: var(--font-franklin-gothic-demi);
       display: inline-block;
